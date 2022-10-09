@@ -10168,7 +10168,7 @@ case'mainmenu': {
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 Nimesh ═════*
     ╠${global.menumoji}
     ╠═══════📛「 SEARCH 」	
     ╠${global.menumoji} ${prefix}play [query]

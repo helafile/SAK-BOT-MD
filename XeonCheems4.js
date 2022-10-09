@@ -3,10 +3,10 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 NIPUNA Bot Inc. nero Bot MD
-//Thank you to Lord NIPUNA, Family and Myself
+//© 2022 NIMESH Bot Inc. nero Bot MD
+//Thank you to Lord NIMESH, Family and Myself
 //════════════════════════════//
-      // NIPUNA
+      // NIMESH
 //════════════════════════════//
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 

@@ -6,18 +6,18 @@
 
 # Setup For Deployment 👇
 
-- FORK THE REPOSITORY [Here](https://github.com/Nipuna-apps/Blue-Lione-Bot/fork)
+- FORK THE REPOSITORY [Here](https://github.com/nimaofficial/SAK-BOT-MD/fork)
 
 ## `Scan QR Code For Session`
-[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@nipunarangana/Blue-Lione-Bot?v=1)
+[![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@nimaofficial/SAK-BOT-MD?v=1)
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER VCARD [Here](https://github.com/Nipuna-apps/Blue-Lione-Bot/blob/master/settings.js#L58)
-- CHANGE OWNER NUMBER MENU [Here](https://github.com/Nipuna-apps/Blue-Lione-Bot/blob/master/settings.js#L65)
-- CHANGE OWNER NUMBER TAG [Here](https://github.com/Nipuna-apps/Blue-Lione-Bot.git/blob/master/settings.js#L66)
-- CHANGE OWNER NAME [Here](https://github.com/Nipuna-apps/Blue-Lione-Bot.git/blob/master/settings.js#L59)
-- CHANGE BOT NAME [Here](https://github.com/Nipuna-apps/Blue-Lione-Bot.git/blob/master/settings.js#L67)
+- CHANGE OWNER NUMBER VCARD [Here](https://github.com/nimaofficial/SAK-BOT-MD/blob/master/settings.js#L58)
+- CHANGE OWNER NUMBER MENU [Here](https://github.com/nimaofficial/SAK-BOT-MD/blob/master/settings.js#L65)
+- CHANGE OWNER NUMBER TAG [Here](https://github.com/nimaofficial/SAK-BOT-MD.git/blob/master/settings.js#L66)
+- CHANGE OWNER NAME [Here](https://github.com/nimaofficial/SAK-BOT-MD.git/blob/master/settings.js#L59)
+- CHANGE BOT NAME [Here](https://github.com/nimaofficial/SAK-BOT-MD.git/blob/master/settings.js#L67)
 
 
  
@@ -44,7 +44,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/Nipuna-apps/Blue-Lione-Bot.git
+git clone https://github.com/nimaofficial/SAK-BOT-MD.git
 npm start
 ```
 ## `For Termux/Ssh/Ubuntu`
@@ -59,7 +59,7 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/Nipuna-apps/Blue-Lione-Bot
+git clone https://github.com/nimaofficial/SAK-BOT-MD.git
 cd Blue-Lione-Bot
 npm start
 ```
@@ -71,7 +71,7 @@ apt apt install ffmpeg
 apt apt install libwebp 
 apt apt install imagrmagick
 apt install bash
-git clone https://github.com/Nipuna-apps/Blue-Lione-Bot
+git clone https://github.com/nimaofficial/SAK-BOT-MD.git
 cd Blue-Lione-Bot
 npm start
 ```

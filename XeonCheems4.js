@@ -6695,7 +6695,7 @@ const buttons = [
 {buttonId: 'fbsd ' + q, buttonText: {displayText: '480p'}, type: 1},
 {buttonId: 'fbhd ' + q, buttonText: {displayText: '720p'}, type: 1},
 ]
-await XeonBotInc.sendMessage(from, {  text: msg , footer: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ` , buttons: buttons , headerType: 4} , { quoted: m } )  
+await XeonBotInc.sendMessage(from, {  text: msg , footer: `⚜️SAK BOT MD⚜️ ` , buttons: buttons , headerType: 4} , { quoted: m } )  
 
     } catch(e) {
   await XeonBotInc.sendMessage(from , { text: 'error\n\n' + e }, { quoted: m } )      
@@ -8172,10 +8172,10 @@ caption: `*┏━━━❬NIPUNA MD📌❭*
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME : 📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 
+*┃BOT NAME : ⚜️SAK BOT MD⚜️ 
 
 ┗━━━━━━━━━❊`,
-footer: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 `,
+footer: `⚜️SAK BOT MD⚜️ `,
 buttons: buttons,
 headerType: 4,
 }
@@ -8208,10 +8208,10 @@ caption: `*┏━━━❬NIPUNA MD📌❭*
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME : 📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 
+*┃BOT NAME : ⚜️SAK BOT MD⚜️ 
 
 ┗━━━━━━━━━❊`,
-footer: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 `,
+footer: `⚜️SAK BOT MD⚜️ `,
 buttons: buttons,
 headerType: 4,
 }
@@ -8240,11 +8240,11 @@ listMessage :{
 
 *┃🔖Description : ${anu.description}
 
-*┃BOT NAME : 📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 
+*┃BOT NAME : ⚜️SAK BOT MD⚜️ 
 
 ┗━━━━━━━━━❊`,
  buttonText: "Menu",
- footerText: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 `,
+ footerText: `⚜️SAK BOT MD⚜️ `,
  listType: "SINGLE_SELECT",
  sections: [{
     "title": "MP4",
@@ -8392,10 +8392,10 @@ break
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME :* *📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 *
+*┃BOT NAME :* *⚜️SAK BOT MD⚜️ *
 
 ┗━━━━━━━━━❊`,
- footer: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 `,
+ footer: `⚜️SAK BOT MD⚜️ `,
  buttons: buttons,
  headerType: 4,
  }
@@ -9015,8 +9015,8 @@ title:"I deserve something for my hardwork",
 body: "Click to donate", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://telegra.ph/file/8737b098fd5702daeb7e0.jpg',
-sourceUrl: "https://telegra.ph/file/8737b098fd5702daeb7e0.jpg"
+mediaUrl: 'https://telegra.ph/file/2534a230221373ff3d754.png',
+sourceUrl: "https://telegra.ph/file/2534a230221373ff3d754.png"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -9043,7 +9043,7 @@ case 'alive': {
     │✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
     │✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
     └┬──────────────┈ ⳹`,
-    footer: `📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶`,
+    footer: `⚜️SAK BOT MD⚜️`,
     buttons: buttons,
     headerType: 4,
     }
@@ -9258,7 +9258,7 @@ case 'allmenu': {
     ╠${global.menumoji}  ${prefix}unblock [tag/number]
     ╠${global.menumoji}  ${prefix}coowner [add/del]
     ╠${global.menumoji}             
-    ╚═══❖📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶❯
+    ╚═══❖⚜️SAK BOT MD⚜️❯
 
 
 
@@ -9302,7 +9302,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}checkvote
     ╠${global.menumoji} ${prefix}delvote
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9413,7 +9413,7 @@ case 'allmenu': {
     ╠${global.menumoji}  ${prefix}watercolor
     ╠${global.menumoji}  ${prefix}classic
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9443,7 +9443,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}wamod
     ╠${global.menumoji} ${prefix}wa
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9477,7 +9477,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}mcserver [ip|port]
     ╠${global.menumoji} ${prefix}drakor [query]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9514,7 +9514,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}slow [reply aud]
     ╠${global.menumoji} ${prefix}squirrel [reply aud]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9537,7 +9537,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}deleteeffect
     ╠${global.menumoji} ${prefix}pixelate
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9557,7 +9557,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}animewall [query]
     ╠${global.menumoji}  ${prefix}animewall2 [query]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9578,7 +9578,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}pediaemoji
     ╠${global.menumoji} ${prefix}microsoftemoji
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9635,7 +9635,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}smug2
     ╠${global.menumoji} ${prefix}couplepp
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9651,7 +9651,7 @@ case 'allmenu': {
     ╠${global.menumoji}  ${prefix}doge
     ╠${global.menumoji}  ${prefix}lovesticker
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9689,7 +9689,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}neko
     ╠${global.menumoji} ${prefix}gura
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9723,7 +9723,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}hneko
     ╠${global.menumoji} ${prefix}nwaifu
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9796,7 +9796,7 @@ case 'allmenu': {
     ╠${global.menumoji}  ${prefix}fuckgirl
     ╠${global.menumoji}  ${prefix}plygirl
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9965,7 +9965,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}sound160
     ╠${global.menumoji} ${prefix}sound161
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9980,7 +9980,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}math [mode]
     ╠${global.menumoji} ${prefix}suitpvp [tag]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -9994,7 +9994,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}leave
     ╠══════📛「 TOOL 」
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
      
 
 
@@ -10005,7 +10005,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}fliptext [text]
     ╠${global.menumoji} ${prefix}toletter [number]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -10022,7 +10022,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}getmsg
     ╠${global.menumoji} ${prefix}delmsg
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -10055,7 +10055,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}earthquake
     ╠${global.menumoji} ${prefix}tvschedule 
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -10094,7 +10094,7 @@ case 'allmenu': {
     ╠${global.menumoji} ${prefix}zodiak
     ╠${global.menumoji} ${prefix}shio
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
  
 
 
@@ -10122,7 +10122,7 @@ case 'allmenu': {
     ╠${global.menumoji}  ${prefix}request
     ╠${global.menumoji} ${prefix}report [bug]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 `,
     footer: `${global.botname}`,
     buttons: buttons,
@@ -10164,7 +10164,7 @@ case'mainmenu': {
     ╠${global.menumoji} ${prefix}wamod
     ╠${global.menumoji} ${prefix}wa
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
 
 
 
@@ -10198,7 +10198,7 @@ case'mainmenu': {
     ╠${global.menumoji} ${prefix}mcserver [ip|port]
     ╠${global.menumoji} ${prefix}drakor [query]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -10253,7 +10253,7 @@ case'groupmenu': {
     ╠${global.menumoji} ${prefix}checkvote
     ╠${global.menumoji} ${prefix}delvote
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
     buttons: buttons,
     headerType: 4,
@@ -10299,7 +10299,7 @@ case'searchmenu': {
     ╠${global.menumoji} ${prefix}mcserver [ip|port]
     ╠${global.menumoji} ${prefix}drakor [query]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -10338,7 +10338,7 @@ case'Gamesmenu': {
     ╠${global.menumoji}  ${prefix}unblock [tag/number]
     ╠${global.menumoji}  ${prefix}coowner [add/del]
     ╠${global.menumoji}             
-    ╚═══❖📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶❯`,
+    ╚═══❖⚜️SAK BOT MD⚜️❯`,
     footer: `${global.botname}`,
     buttons: buttons,
     headerType: 4,
@@ -10460,7 +10460,7 @@ case'mekermenu': {
     ╠${global.menumoji}  ${prefix}watercolor
     ╠${global.menumoji}  ${prefix}classic
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
     buttons: buttons,
     headerType: 4,
@@ -10501,7 +10501,7 @@ case'downloadmenu': {
     ╠${global.menumoji} ${prefix}wamod
     ╠${global.menumoji} ${prefix}wa
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 `,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ `,
     footer: `${global.botname}`,
     buttons: buttons,
     headerType: 4,
@@ -10549,7 +10549,7 @@ case'convertmenu': {
     ╠${global.menumoji} ${prefix}slow [reply aud]
     ╠${global.menumoji} ${prefix}squirrel [reply aud]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -10583,7 +10583,7 @@ case'Imgeffectmenu': {
     ╠${global.menumoji} ${prefix}deleteeffect
     ╠${global.menumoji} ${prefix}pixelate
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -10615,7 +10615,7 @@ case'arandomImgmenu': {
     ╠${global.menumoji} ${prefix}animewall [query]
     ╠${global.menumoji}  ${prefix}animewall2 [query]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -10647,7 +10647,7 @@ case'EMOTEmenu': {
     ╠${global.menumoji} ${prefix}pediaemoji
     ╠${global.menumoji} ${prefix}microsoftemoji
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -10715,7 +10715,7 @@ case'ANIMEmenu': {
     ╠${global.menumoji} ${prefix}smug2
     ╠${global.menumoji} ${prefix}couplepp
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -10742,7 +10742,7 @@ case'STICKERmenu': {
     ╠${global.menumoji}  ${prefix}doge
     ╠${global.menumoji}  ${prefix}lovesticker
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -10791,7 +10791,7 @@ case'ANIMESTICKERmenu': {
     ╠${global.menumoji} ${prefix}neko
     ╠${global.menumoji} ${prefix}gura
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -10836,7 +10836,7 @@ case'NSFWmenu': {
     ╠${global.menumoji} ${prefix}hneko
     ╠${global.menumoji} ${prefix}nwaifu
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -10920,7 +10920,7 @@ case'funmenu': {
     ╠${global.menumoji}  ${prefix}fuckgirl
     ╠${global.menumoji}  ${prefix}plygirl
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -11100,7 +11100,7 @@ case'Soundmenu': {
     ╠${global.menumoji} ${prefix}sound160
     ╠${global.menumoji} ${prefix}sound161
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -11126,7 +11126,7 @@ case'Gamesmenu': {
     ╠${global.menumoji} ${prefix}math [mode]
     ╠${global.menumoji} ${prefix}suitpvp [tag]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -11151,7 +11151,7 @@ case'ANONYMOUSCHATmenu': {
     ╠${global.menumoji} ${prefix}leave
     ╠══════📛「 TOOL 」
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯
      
 
 
@@ -11162,7 +11162,7 @@ case'ANONYMOUSCHATmenu': {
     ╠${global.menumoji} ${prefix}fliptext [text]
     ╠${global.menumoji} ${prefix}toletter [number]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -11190,7 +11190,7 @@ case'databasemenu': {
     ╠${global.menumoji} ${prefix}getmsg
     ╠${global.menumoji} ${prefix}delmsg
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -11234,7 +11234,7 @@ case'lNDO': {
     ╠${global.menumoji} ${prefix}earthquake
     ╠${global.menumoji} ${prefix}tvschedule 
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -11284,7 +11284,7 @@ case'INDOhoroscopemenu': {
     ╠${global.menumoji} ${prefix}zodiak
     ╠${global.menumoji} ${prefix}shio
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,
@@ -11322,7 +11322,7 @@ case'othermenu': {
     ╠${global.menumoji}  ${prefix}request
     ╠${global.menumoji} ${prefix}report [bug]
     ╠${global.menumoji}             
-    ╚═══❖  📶 𝘽𝙡𝙪𝙚 𝙇𝙞𝙤𝙣𝙚 📶 ❯`,
+    ╚═══❖  ⚜️SAK BOT MD⚜️ ❯`,
     footer: `${global.botname}`,
                 buttons: buttons,
                 headerType: 4,

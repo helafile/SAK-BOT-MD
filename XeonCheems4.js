@@ -6096,7 +6096,7 @@ case 'wamod': case 'mod': {
 
        *Mod ගණන :-* 6`,
        footer: `${global.botname}`,
-       title: `*Mod Whatsapp Downloder By Nipuna*`,
+       title: `*Mod Whatsapp Downloder By SAK BOT MD*`,
        buttonText: "Select",
        sections
       }, { quoted : m })
@@ -6109,7 +6109,7 @@ if (!text) return reply(mess.linkm)
 if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) return reply(`Cant Download This Mod`)
 const baby1 = await mediafireDl(text)
 if (baby1[0].size.split('MB')[0] >= 200) return reply('*File Over Limit* '+util.format(baby1))
-const result4 = `  *Mod Whatsapp Downloder By Nipuna*
+const result4 = `  *Mod Whatsapp Downloder By SAK BOT MD*
 
 _Mod Name :_ *${baby1[0].nama}*
 _Size :_ *${baby1[0].size}*`
@@ -6690,7 +6690,7 @@ case 'fb' :
    if (!q) return await XeonBotInc.sendMessage(from , { text: 'need fb link' }, { quoted: m } )      
    const isfb = q.includes('facebook.com')? q.includes('facebook.com') : q.includes('fb.watch')? q.includes('fb.watch') : ''
        if (!isfb) return await XeonBotInc.sendMessage(from , { text: 'need fb link' }, { quoted: m } )  
-  const msg = '*NIPUNA* MD FB Downloder\n\n*📥Quality එක තෝරන්න්න📤*'
+  const msg = '*SAK BOT MD* MD FB Downloder\n\n*📥Quality එක තෝරන්න්න📤*'
 const buttons = [
 {buttonId: 'fbsd ' + q, buttonText: {displayText: '480p'}, type: 1},
 {buttonId: 'fbhd ' + q, buttonText: {displayText: '720p'}, type: 1},
@@ -6843,7 +6843,7 @@ break
 	if (isBanChat) return reply(mess.banChat)
 	reply(mess.wait)
             let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
-            if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/NIPUNAsithum/DARK-NERO-BOT.git`)
+            if (!args[0]) reply(`Use ${prefix}gitclone repo link\nExample: https://github.com/SAK BOT MDsithum/DARK-NERO-BOT.git`)
     if (!regex1.test(args[0])) return reply(mess.linkm)
     let [, user, repo] = args[0].match(regex1) || []
     repo = repo.replace(/.git$/, '')
@@ -8158,7 +8158,7 @@ let buttons = [
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
-caption: `*┏━━━❬NIPUNA MD📌❭*
+caption: `*┏━━━❬SAK BOT MD 📌❭*
      
    *📥 YOUTUBE DOWNLODER* 
  
@@ -8194,7 +8194,7 @@ let buttons = [
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
-caption: `*┏━━━❬NIPUNA MD📌❭*
+caption: `*┏━━━❬SAK BOT MD 📌❭*
      
    *📥 SONG DOWNLODER* 
  
@@ -8226,7 +8226,7 @@ case 'ytdl': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 listMessage :{
  title: `Hi ${pushname}`,
- description: `*┏━━━❬NIPUNA MD📌❭*
+ description: `*┏━━━❬SAK BOT MD MD📌❭*
      
   📥 ADVANCE YOUTUBE DOWNLODER* 
 
@@ -8378,7 +8378,7 @@ break
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `*┏━━━❬NIPUNA MD📌❭*
+ caption: `*┏━━━❬SAK BOT MD 📌❭*
      
    📥 VIDEO DOWNLODER* 
  
@@ -10139,7 +10139,7 @@ case'mainmenu': {
     ]
     let buttonMessage = {
     image: { url: `${global.menuimg}` },
-    caption:`═════ 👽 Nipuna ═════*
+    caption:`═════ 👽 SAK BOT MD ═════*
     ╠${global.menumoji}
     ╠═════📛「 DOWNLOAD 」	
     ╠${global.menumoji} ${prefix}instagram [url]
@@ -10168,7 +10168,7 @@ case'mainmenu': {
 
 
 
-   *╔═════ 👽 Nipuna ═════*
+   *╔═════ 👽 SAK BOT MD ═════*
     ╠${global.menumoji}
     ╠═══════📛「 SEARCH 」	
     ╠${global.menumoji} ${prefix}play [query]
@@ -11334,8 +11334,8 @@ case 'tqtt':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 reply(`Thanks to
-Kumuthu & Vihanga
-NIPUNA (Me)
+Randika & Malik
+SAK BOT MD
 My family
 And all friends who helped assemble this script !!!`)
 break

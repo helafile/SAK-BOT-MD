@@ -10168,11 +10168,7 @@ case'mainmenu': {
 
 
 
-<<<<<<< HEAD
    *╔═════ 👽 SAK BOT MD ═════*
-=======
-   *╔═════ 👽 Nimesh ═════*
->>>>>>> 47f83f71eab285b5b95c325bd9f3f00060b131cb
     ╠${global.menumoji}
     ╠═══════📛「 SEARCH 」	
     ╠${global.menumoji} ${prefix}play [query]
